@@ -4,8 +4,8 @@ from geopy.geocoders import Nominatim
 def getConnection():
 	return pymysql.connect(host='localhost',
 	user='root',
-	password='Jawa#609',
-	db='softengin')
+	password='',
+	db='')
 
 conn = getConnection()
 cursor = conn.cursor()
